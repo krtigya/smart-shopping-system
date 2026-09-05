@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form id="catalogFilters" method="get" action="">
+    <input type="checkbox" name="category[]" value="1"> Category 1
+</form>
+<script>
+    const filters = document.getElementById('catalogFilters');
+    filters.querySelectorAll('input').forEach(input => input.addEventListener('change', () => {
+        console.log("Submitting...");
+        filters.submit();
+    }));
+</script>
+</body>
+</html>

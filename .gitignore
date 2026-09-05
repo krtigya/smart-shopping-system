@@ -1,0 +1,9 @@
+venv/ 
+.venv/ 
+__pycache__/ 
+*.pyc 
+.vscode/
+api/.torch_cache/
+training_data/kaggle_fashion/images/
+training_data/kaggle_fashion/manifest.json
+ml/uploads/
